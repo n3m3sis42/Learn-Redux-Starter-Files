@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import { Provider } from 'react-redux'
 import { BrowserRouter as Router, Link} from 'react-router-dom'
-import Main from './main'
+import App from './App'
 
 const Root = ({ store }) => (
   <Provider store={store}>
-    <Router><Main /></Router>
+    <Router><App /></Router>
   </Provider>
 )
 
